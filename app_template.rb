@@ -221,7 +221,7 @@ end
 
 def setup_procfile
   # Procfile
-  create_file 'spec/turnip_helper.rb', <<PROCFILE
+  create_file 'Procfile', <<PROCFILE
 rails: bundle exec rails server
 webpack: ./bin/webpack-dev-server%
 PROCFILE
